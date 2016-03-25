@@ -1,0 +1,41 @@
+body{
+    font-size: small;
+}
+div{
+    border:0.5px solid #999;
+    padding:20px;
+}
+#contain{
+    background: #eee;
+    position: relative;
+    overflow: auto;
+}
+#left{
+    width:160px;
+    float:left;
+    background: white;
+}
+#inner{
+    display:inline-block;
+    float:left;
+}
+span{
+    display:block;
+}
+#right{
+    width:80px;
+    float:right;
+    background: white;
+}
+#middle{
+    margin:0 140px 0 220px;
+    background: white;
+}
+.common{
+    width:40px;
+    height:40px;
+    background: #eee;
+}
+#one,#two,#three{
+    margin-bottom:20px;
+}

@@ -1,0 +1,52 @@
+body{
+    font-size: small;
+}
+div{
+    border:0.5px solid #999;
+    padding:20px;
+}
+#contain{
+    background: #eee;
+    overflow: auto;
+}
+#main{
+    width:100%;
+    margin:0;padding:0;
+    float:left;
+    display: inline-block;
+    border:0px;
+}
+#left{
+    width:160px;
+    background: white;
+    float:left;
+    margin-left:-100%;
+    display: inline-block;
+}
+#inner{
+    display:inline-block;
+    float:left;
+}
+span{
+    display:block;
+}
+#right{
+    width:80px;
+    background: white;
+    display: inline-block;
+    float:left;
+
+    margin-left:-122px;
+}
+#middle{
+    margin:0 140px 0 220px;
+    background: white;
+}
+.common{
+    width:40px;
+    height:40px;
+    background: #eee;
+}
+#one,#two,#three{
+    margin-bottom:20px;
+}
