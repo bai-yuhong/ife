@@ -1,0 +1,2 @@
+我是通过在设置最外层div为absolute，然后再添加两个子div，将他的边框设置为圆形。并将这两个圆形也绝对定位，隐藏超出的部分，只需设置父div的overflow：hidden.
+但是这里有一个问题，当我使用absolute使元素垂直居中的时候，margin:0 auto,无法使元素水平居中
