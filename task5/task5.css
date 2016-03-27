@@ -1,0 +1,203 @@
+*{margin:0;  padding:0;}
+body{
+    background:lightgrey;
+    font-family: monospace;
+    line-height: 20px;
+    font-size: 1em;
+}
+header.top{
+    background: black;
+    height:70px;
+}
+header.top span{
+    display:inline-block;
+    width:170px;
+    height:50px;
+    padding-top:20px;
+    padding-left:20px;
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+}
+header.top ul{
+    float:right;
+    line-height: 70px;
+}
+header.top ul li{
+    float:left;
+    display:inline-block;
+    margin-right:10px;
+    list-style-type: none;
+}
+header.top ul li a{
+    text-decoration: none;
+    color:white;
+}
+#main{
+    width:100%;
+    overflow: hidden;
+}
+#right{
+    width:30%;
+    float:right;
+    overflow: hidden;
+}
+#left{
+    margin-right:-30%;
+    overflow: hidden;
+}
+article,section,aside{
+    margin:20px;
+    background: white;
+    border:1px solid darkgray;
+    padding:25px;
+}
+article h1{
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+article h2{
+    font-weight: bolder;
+    color:dimgray;
+    font-size: 1.2em;
+    line-height: 40px;
+}
+article header p{
+    font-weight: bolder;
+    color:dimgray;
+    font-size: 0.8em;
+    line-height: 40px;
+}
+.one{
+    text-indent: 25px;
+}
+.img{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#a2 ul li{
+    list-style-type: none;
+}
+section{
+    overflow: auto;
+    height: auto;
+}
+section h1{
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+section div{
+    border:1px solid darkgray;
+    width:120px;
+    height:120px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    float:left;
+}
+section div img{
+    width:100px;
+    height:75px;
+    margin:0 auto;
+    margin:10px 10px 10px 10px;
+}
+section div p{
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding-top:5px;
+}
+#a3 ol{
+    margin-left:40px;
+    margin-bottom: 10px;
+}
+#a3 tr.black{
+    background: black;
+    color:white;
+}
+#a3 tr.grey{
+    background: lightgray;
+}
+#a3 table{
+    border:1px solid darkgray;
+    border-collapse: collapse;
+    width:98%;
+    margin:10px auto;
+}
+#a3 table tr{
+    border:1px solid darkgray;
+    border-collapse: collapse;
+    height:25px;
+    line-height: 25px;
+}
+#a3 table td{
+    border:1px solid darkgray;
+    border-collapse: collapse;
+}
+#a3 table th{
+    text-align: left;
+    border:1px solid darkgray;
+    border-collapse: collapse;
+}
+aside{
+    margin-left:5px;
+    overflow: hidden;
+}
+aside h1{
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+aside form{
+    margin:0px auto;
+}
+aside table{
+    border:0;
+    width:98%;
+}
+aside table tr{
+    border:0;
+    width:100%;
+    height:30px;
+}
+aside table td{
+    text-align: left;
+    border:0;
+    font-size: smaller;
+
+
+}
+.right{
+    text-align: right;
+    width:30%;
+}
+.b{
+    vertical-align: top;
+}
+label{
+    color:darkgray;
+}
+.btn{
+    background: blue;
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width:100%;
+    height:50px;
+    border-radius:10px;
+}
+footer{
+    background: black;
+    margin-top:13px;
+    width:100%;
+    height:70px;
+    line-height: 70px;
+    color:white;
+    text-align: center;
+}
