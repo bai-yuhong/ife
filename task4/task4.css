@@ -1,0 +1,30 @@
+*{margin:0;
+padding:0;}
+#contain{
+    width:400px;
+    height:200px;
+    background: lightgray;
+    margin:0 auto;/*这时候这行代码没法使div居中*/
+    position: absolute;
+    top:50%;
+    margin-top:-100px;
+    left:50%;
+    margin-left: -200px;
+    overflow: hidden;
+}
+.circu{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    background-color: #fc0;
+}
+#cir1{
+    position: absolute;
+    top:-50px;
+    left:-50px;
+}
+#cir2{
+    position: absolute;
+    bottom:-50px;
+    right:-50px;
+}
