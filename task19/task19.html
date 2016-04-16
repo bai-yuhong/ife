@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #container{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            height:120px;
+        }
+        div.num{
+            margin:2px;
+            width:15px;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <input type="number" id="num" min="10" max="100">
+    <input type="button" id="b1" value="左侧入">
+    <input type="button" id="b2" value="右侧入">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="button" id="b3" value="左侧出">
+    <input type="button" id="b4" value="右侧出">
+</form>
+<div id="container"></div>
+<script type="text/javascript" src="task19.js" charset="GB2312"></script>
+</body>
+</html>
