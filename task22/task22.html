@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        div{
+            margin:10px 5px;
+            padding:10px 5px;
+            display: flex;
+
+            flex-direction: row;
+            border:1px solid black;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+        }
+        div.root{
+            flex-grow: 1;
+            width:800px;
+            height: 240px;
+        }
+        div.left_son1,div.right_son1{
+            flex-grow: 1;
+            height: 200px;
+        }
+        div.left_son2,div.right_son2{
+            flex-grow: 1;
+            height: 160px;
+        }
+        div.left_son3,div.right_son3{
+            flex-grow: 1;
+            height: 120px;
+        }
+        input {
+            width:100px;
+            height:50px;
+            text-align: center;
+            vertical-align: central;
+        }
+    </style>
+</head>
+<body>
+<div class="root">
+    <div class="left_son1">
+        <div class="left_son2">
+            <div class="left_son3"></div>
+            <div class="right_son3"></div>
+        </div>
+        <div class="right_son2">
+            <div class="left_son3"></div>
+            <div class="right_son3"></div>
+        </div>
+    </div>
+
+    <div class="right_son1">
+        <div class="left_son2">
+            <div class="left_son3"></div>
+            <div class="right_son3"></div>
+        </div>
+        <div class="right_son2">
+            <div class="left_son3"></div>
+            <div class="right_son3"></div>
+        </div>
+    </div>
+</div>
+<input type="button" id="bt1" value="前序遍历">
+<input type="button" id="bt2" value="中序遍历">
+<input type="button" id="bt3" value="后序遍历">
+<script type="text/javascript" src="task22.js"></script>
+</body>
+</html>
